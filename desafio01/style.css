@@ -1,8 +1,41 @@
-.topcontainer{
+header{
     background-color: #17171A;
     width: Fixed 1,920px;
-    height: Hug 291px;
+    height: 291px;
     padding: 64px, 0px, 64px, 0px;
     border: 0px, 0px, 2px, 0px;
     gap: 48px;
 }
+.header__txt{
+    text-decoration-color: #FFFFFF;
+    font-weight: bolder;
+    font-family: "LexendDeca-Regular", sans-serif;
+    font-size: 35px;
+    padding: 90px 755px 50px 755px;
+    height: 40px;
+    width: 200px;
+}
+.header__search{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    font-family: "LexendDeca-Regular", sans-serif;
+    width: 1.216px;
+    height: 38px;
+    border-radius: 500px;
+    padding: 16px 0 0 16px
+    
+}
+.search-imput{
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+.search-imput:hover {
+    border: 1px solid #fff;
+  }
