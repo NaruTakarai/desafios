@@ -3,68 +3,60 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
 }
-
 h1{
     font-size: 40px;
     font-weight: 500;
     color:#ffff;
 }
-
 h2{
     color: #ffff;
     font-size: 24px;
     font-weight: 500;
+    margin-left: 20px;
 }
-
 span{
     color: #E07B67;
 }
-
 h3{
     color:#E07B67;
     font-size: 16px;
+    margin-left: 20px;
 }
-
 header {
     height: 291px;
     width: 1920px;
     justify-content: center;
     background: #17171A;
 }
-
 .header-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .header-container-title {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 4.5rem;
 }
-
 .header-container-title .span {
     color: #E07B67;
 }
-
 .header-container-title .h1 {
     margin-top: 6.4rem;
     color: #ffff;
 }
-
 #header-container-search {
-    width: 100%;
+    width: 1000px;
     display: flex;
     align-items: center;
     position: relative;
-    margin-bottom: 6rem !important;
+    margin-bottom: 6rem;
 }
-
 #input{
-    float:left;
+    align-items: center;
     background-color:transparent;
     padding-left:35px;
     font-style:italic;
@@ -74,13 +66,12 @@ header {
     width:560px;
     color: #202024;
     border-radius: 15px;
+    font-family: 'Inter', sans-serif;
 }
-
 #input:hover {
-    outline: none !important;
+    outline: none;
     border: 0.1rem solid #ffff;
 }
-
 #btn-search {
     width: 20px;
     height: 30px;
@@ -89,15 +80,16 @@ header {
     justify-content: flex-end;
     position: absolute;
     cursor: pointer;
+    margin-left: 5px;
 }
-
 .main-container {
     max-width: 120rem;
 }
-
 p{
     color:#AFABB6;
     font-size: 16px;
+    margin-left: 20px;
+    magin-top: 10px;
 }
 .main-container .card-active {
     margin-bottom: 5rem;
@@ -107,7 +99,6 @@ p{
     margin-left: 352px;
     margin-right: 352px;
 }
-
 .main-container .card {
     margin-bottom: 5rem;
     border-radius: 0.5rem;
@@ -115,16 +106,16 @@ p{
     background: #17171A;
     margin-left: 352px;
     margin-right: 352px;
+    align-items: center;
 }
-
 #icon {
     fill: #574ae801;
     stroke:  #E07B67;
     stroke-width: 7;
     transition: fill 0.3s;
     cursor: pointer;
-    width: 20px;
-  }
+    width: 20px;   
+}
   
   #icon.filled,
   #icon:hover {
