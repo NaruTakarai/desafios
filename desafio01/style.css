@@ -1,9 +1,11 @@
 body{
-    background-color: #202024;
+    background-color: #17171A;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Space Grotesk', sans-serif;
+    width: 1980px;
+    height: 1260px;
 }
 h1{
     font-size: 40px;
@@ -26,9 +28,9 @@ h3{
 }
 header {
     height: 291px;
-    width: 1920px;
+    width: 1980px;
     justify-content: center;
-    background: #17171A;
+    background: #202024;
 }
 .header-container {
     display: flex;
@@ -52,8 +54,8 @@ header {
     width: 1000px;
     display: flex;
     align-items: center;
-   
     margin-bottom: 6rem;
+    margin: 0 auto;
 }
 #input{
     align-items: center;
@@ -62,11 +64,12 @@ header {
     font-style:italic;
     font-size:15px;
     border: 2px solid #252529;
-    height:32px;
-    width:560px;
+    height: 64px;
+    width:1216px;
     color: #202024;
-    border-radius: 15px;
+    border-radius: 8px;
     font-family: 'Inter', sans-serif;
+    padding: 16px, 24px, 16px, 24px
 }
 #input:hover {
     outline: none;
@@ -83,6 +86,7 @@ header {
 }
 .main-container {
     max-width: 120rem;
+    margin-top: 125px;
 }
 p{
     color:#AFABB6;
@@ -94,18 +98,23 @@ p{
     margin-bottom: 5rem;
     border-radius: 0.5rem;
     border: 0.1rem solid #E07B67;
-    background: #17171A;
+    background: #202024;
     margin-left: 352px;
     margin-right: 352px;
+    width: 1216px;
+    height: 243px;
+    gap: 40px;
 }
 .main-container .card {
     margin-bottom: 5rem;
     border-radius: 0.5rem;
     border: 2px solid #252529;
-    background: #17171A;
+    background: #202024;
     margin-left: 352px;
     margin-right: 352px;
     align-items: center;
+    width: 1216px;
+    height: 243px;
 }
 #icon {
     fill: #574ae801;
@@ -118,4 +127,9 @@ p{
 #icon.filled,
 #icon:hover {
     fill:  #E07B67;
+}
+svg{
+    float: right;
+    margin-right: 15px;
+    
 }
